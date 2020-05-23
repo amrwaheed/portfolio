@@ -90,7 +90,15 @@
                     <div class="col">
                         <ul class="nav nav-tabs lead mb-4 mb-md-5 justify-content-center" id="myTab" role="tablist">
                             <li class="nav-item">
-                                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                                <a class="nav-link active" id="playground-tab" data-toggle="tab" href="#playground" role="tab"
+                                    aria-controls="playground" aria-selected="false">Playground </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                                    aria-controls="contact" aria-selected="false">Posts </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " id="home-tab" data-toggle="tab" href="#home" role="tab"
                                     aria-controls="home" aria-selected="true">PureVision</a>
                             </li>
                             <li class="nav-item">
@@ -98,15 +106,73 @@
                                     aria-controls="profile" aria-selected="false">Wazeftak</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
-                                    aria-controls="contact" aria-selected="false">Posts </a>
+                                <a class="nav-link" id="templete-tab" data-toggle="tab" href="#templete" role="tab"
+                                    aria-controls="templete" aria-selected="false">EliteCorp</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="playground-tab" data-toggle="tab" href="#playground" role="tab"
-                                    aria-controls="playground" aria-selected="false">Playground </a>
+                                <a class="nav-link" id="tickets-tab" data-toggle="tab" href="#tickets" role="tab"
+                                    aria-controls="tickets" aria-selected="false">Tickets</a>
                             </li>
+                            
                         </ul>
                         <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade" id="playground" role="tabpanel" aria-labelledby="playground-tab">
+                                <div class="row align-items-center justify-content-around">
+                                    <div class="col-lg-6 col-xl-5 text-center text-lg-left mb-4 mb-md-5 mb-lg-0">
+                                        <div class="pr-lg-4 pr-xl-5" data-aos="fade-right">
+                                            <h3 class="h1"> Playground <mark data-aos="highlight-text"
+                                                    data-aos-delay="250">Reservation</mark>.</h3>
+                                            <p>
+                                                Football reservation finder is an agent which provides facilities for
+                                                booking playgrounds online
+                                                technologies : Angular 8, Nodejs, Express, Mongodb
+                                            </p>
+                                            <div class="mt-4">
+                                                <div
+                                                    class="media rounded align-items-center pl-3 pr-3 pr-md-4 py-2 d-inline-flex text-left shadow-sm bg-white">
+                                                    <img src="assets/img/1.jpg" alt="Posts image"
+                                                        class="avatar avatar-sm flex-shrink-0 mr-3">
+                                                    <div class="text-dark mb-0">&ldquo;I created it in february
+                                                        2020&rdquo; </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-xl-7" data-aos="fade-left">
+                                        <img src="assets/img/1.jpg" alt="Screenshot"
+                                            class="img-fluid rounded shadow border">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                                <div class="row align-items-center justify-content-around">
+                                    <div class="col-lg-6 col-xl-5 text-center text-lg-left mb-4 mb-md-5 mb-lg-0">
+                                        <div class="pr-lg-4 pr-xl-5" data-aos="fade-right">
+                                            <h3 class="h1"> Posts <mark data-aos="highlight-text"
+                                                    data-aos-delay="250">CRUD</mark>.</h3>
+                                            <p>
+                                                Create Posts by Users with authentication and authorization technologies
+                                                : Angular, Nodejs, Express, Mongodb
+                                            </p>
+                                            <div class="mt-4">
+                                                <div
+                                                    class="media rounded align-items-center pl-3 pr-3 pr-md-4 py-2 d-inline-flex text-left shadow-sm bg-white">
+                                                    <img src="assets/img/angular.jpg" alt="Posts image"
+                                                        class="avatar avatar-sm flex-shrink-0 mr-3">
+                                                    <div class="text-dark mb-0">&ldquo;I created it in March 2020&rdquo;
+                                                        <br><a target="_blank"
+                                                            href="http://nodeangular-env.eba-dzk6rmbg.us-east-2.elasticbeanstalk.com/">See
+                                                            it Live O|O</a> </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-xl-7" data-aos="fade-left">
+                                        <img src="assets/img/angular2.jpg" alt="Screenshot"
+                                            class="img-fluid rounded shadow border">
+                                    </div>
+                                </div>
+                            </div>
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                                 <div class="row align-items-center justify-content-around">
                                     <div class="col-lg-6 col-xl-5 text-center text-lg-left mb-4 mb-md-5 mb-lg-0">
@@ -172,59 +238,58 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                            <div class="tab-pane fade" id="templete" role="tabpanel" aria-labelledby="templete-tab">
                                 <div class="row align-items-center justify-content-around">
                                     <div class="col-lg-6 col-xl-5 text-center text-lg-left mb-4 mb-md-5 mb-lg-0">
                                         <div class="pr-lg-4 pr-xl-5" data-aos="fade-right">
-                                            <h3 class="h1"> Posts <mark data-aos="highlight-text"
-                                                    data-aos-delay="250">CRUD</mark>.</h3>
+                                            <h3 class="h1">EliteCorp</h3>
                                             <p>
-                                                Create Posts by Users with authentication and authorization technologies
-                                                : Angular, Nodejs, Express, Mongodb
+                                                Templete For any Company 
+                                                technologies : Html, css, javascript, jquery,Bootstrap 4.
                                             </p>
                                             <div class="mt-4">
                                                 <div
                                                     class="media rounded align-items-center pl-3 pr-3 pr-md-4 py-2 d-inline-flex text-left shadow-sm bg-white">
-                                                    <img src="assets/img/angular.jpg" alt="Posts image"
+                                                    <img src="assets/img/templete.jpg" alt="EliteCorp image"
                                                         class="avatar avatar-sm flex-shrink-0 mr-3">
-                                                    <div class="text-dark mb-0">&ldquo;I created it in March 2020&rdquo;
+                                                    <div class="text-dark mb-0">&ldquo;I created it in June 2017  &rdquo;
                                                         <br><a target="_blank"
-                                                            href="http://nodeangular-env.eba-dzk6rmbg.us-east-2.elasticbeanstalk.com/">See
-                                                            it Live O|O</a> </div>
+                                                            href="https://amrwahed.000webhostapp.com/temp.html">See it
+                                                            Live O|O</a> </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-xl-7" data-aos="fade-left">
-                                        <img src="assets/img/angular2.jpg" alt="Screenshot"
+                                        <img src="assets/img/pure2.jpg" alt="Screenshot"
                                             class="img-fluid rounded shadow border">
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="playground" role="tabpanel" aria-labelledby="playground-tab">
+                            <div class="tab-pane fade" id="tickets" role="tabpanel" aria-labelledby="tickets-tab">
                                 <div class="row align-items-center justify-content-around">
                                     <div class="col-lg-6 col-xl-5 text-center text-lg-left mb-4 mb-md-5 mb-lg-0">
                                         <div class="pr-lg-4 pr-xl-5" data-aos="fade-right">
-                                            <h3 class="h1"> Playground <mark data-aos="highlight-text"
-                                                    data-aos-delay="250">Reservation</mark>.</h3>
+                                            <h3 class="h1">EliteCorp</h3>
                                             <p>
-                                                Football reservation finder is an agent which provides facilities for
-                                                booking playgrounds online
-                                                technologies : Angular 8, Nodejs, Express, Mongodb
+                                                Tickets Website Responsive by media query
+                                                technologies : Html, css, javascript, jquery.
                                             </p>
                                             <div class="mt-4">
                                                 <div
                                                     class="media rounded align-items-center pl-3 pr-3 pr-md-4 py-2 d-inline-flex text-left shadow-sm bg-white">
-                                                    <img src="assets/img/1.jpg" alt="Posts image"
+                                                    <img src="assets/img/templete2.jpg" alt="tickets image"
                                                         class="avatar avatar-sm flex-shrink-0 mr-3">
-                                                    <div class="text-dark mb-0">&ldquo;I created it in february
-                                                        2020&rdquo; </div>
+                                                    <div class="text-dark mb-0">&ldquo;I created it in March 2018  &rdquo;
+                                                        <br><a target="_blank"
+                                                            href="https://amrwahed.000webhostapp.com/respons/media.html ">See it
+                                                            Live O|O</a> </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-xl-7" data-aos="fade-left">
-                                        <img src="assets/img/1.jpg" alt="Screenshot"
+                                        <img src="assets/img/pure2.jpg" alt="Screenshot"
                                             class="img-fluid rounded shadow border">
                                     </div>
                                 </div>
