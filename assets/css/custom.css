@@ -6,3 +6,9 @@
 /*  in your page by adding a reference to assets/css/custom.css in the head of each page.
 /*
 */
+ 
+.image-section > img{
+    max-width: 22rem;
+    max-height: 22rem;
+    object-fit: contain;
+}
